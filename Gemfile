@@ -3,7 +3,7 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 gem 'therubyracer'
-gem 'thin'
+#gem 'thin'
 #清空asset日志
 gem 'quiet_assets', :git => 'git://github.com/AgilionApps/quiet_assets.git'
 group :development, :test do
