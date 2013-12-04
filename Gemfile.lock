@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/AgilionApps/quiet_assets.git
+  revision: c42e29264a61a5431cc09282df597242c003ebe6
+  specs:
+    quiet_assets (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -157,6 +163,7 @@ DEPENDENCIES
   jbuilder (= 1.0.2)
   jquery-rails (= 2.2.1)
   pg (= 0.15.1)
+  quiet_assets!
   rails (= 4.0.0)
   rspec-rails (= 2.13.1)
   sass-rails (= 4.0.1)
