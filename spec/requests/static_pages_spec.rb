@@ -2,9 +2,13 @@ require 'spec_helper'
 
 describe "StaticPages" do
   describe "HomePage" do
-    it "should have the content 'Sample App'"do
+    it "should have the content 'Sample App'" do
       visit '/static_pages/home'
       expect(page).to have_content('Sample App')
+    end
+    it "should have the right title" do
+      visit '/static_pages/home'
+      expect(page).to have_title('Home')
     end
   end
 
@@ -13,6 +17,10 @@ describe "StaticPages" do
       visit '/static_pages/help'
       expect(page).to have_content('help')
     end
+    it "should have the right title" do
+      visit '/static_pages/help'
+      expect(page).to have_title('Help')
+    end
   end
 
   describe "About page" do
@@ -20,7 +28,13 @@ describe "StaticPages" do
       visit '/static_pages/about'
       expect(page).to have_content('About Us')
     end
+    it "should have the right title" do
+      visit '/static_pages/about'
+      expect(page).to have_title('About')
+    end
+
   end
+
 
   #describe "GET /static_pages" do
   #  it "works! (now write some real specs)" do
