@@ -1,15 +1,18 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 ruby '2.0.0'
 
 gem 'kaminari'
 gem 'rails', '4.0.0'
 gem 'therubyracer'
+gem 'pg', '0.15.1'
 #gem 'thin'
 #清空asset日志
 gem 'quiet_assets', :git => 'git://github.com/AgilionApps/quiet_assets.git'
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
+  gem 'spork-rails', '4.0.0'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
@@ -28,6 +31,6 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-group :production do
-  gem 'pg', '0.15.1'
-end
+#group :production do
+#  gem 'pg', '0.15.1'
+#end
