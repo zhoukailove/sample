@@ -10,6 +10,7 @@ gem 'pg', '0.15.1'
 #清空asset日志
 gem 'quiet_assets', :git => 'git://github.com/AgilionApps/quiet_assets.git'
 group :development, :test do
+  gem 'spork', :git => 'git://github.com/sporkrb/spork.git'
   gem 'spork-rails', '4.0.0'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'

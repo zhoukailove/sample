@@ -4,6 +4,12 @@ GIT
   specs:
     quiet_assets (0.0.1)
 
+GIT
+  remote: git://github.com/sporkrb/spork.git
+  revision: a94412c9493a07b7a000e35777b0f76b94de9061
+  specs:
+    spork (1.0.0rc4)
+
 GEM
   remote: http://ruby.taobao.org/
   specs:
@@ -152,7 +158,6 @@ GEM
       rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
     slop (3.4.7)
-    spork (1.0.0rc4)
     spork-rails (4.0.0)
       rails (>= 3.0.0, < 5)
       spork (>= 1.0rc0)
@@ -203,6 +208,7 @@ DEPENDENCIES
   sass-rails (= 4.0.1)
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.35.1)
+  spork!
   spork-rails (= 4.0.0)
   therubyracer
   turbolinks (= 1.1.1)
