@@ -4,6 +4,8 @@ ruby '2.0.0'
 
 gem 'kaminari'
 gem 'rails', '4.0.0'
+gem 'sass-rails', '4.0.1' # sass-rails needs to be higher than 3.2
+gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'therubyracer'
 gem 'pg', '0.15.1'
 #gem 'thin'
